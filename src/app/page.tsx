@@ -1,5 +1,5 @@
 import {Metadata} from "next";
-import {TelegramDataPage} from "@/pages/telegram-data";
+import TelegramDataPage from "@/pages/telegram-data";
 
 export const metadata: Metadata = {
     title: 'Telegram data',

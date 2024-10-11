@@ -2,7 +2,7 @@
 
 import {useTelegram} from "@/shared/telegram-provider";
 
-export const TelegramDataPage = () => {
+ const TelegramDataPage = () => {
     const {webApp, user} = useTelegram();
 
     console.log('webApp', webApp)
@@ -18,3 +18,5 @@ export const TelegramDataPage = () => {
         </div>
     );
 };
+
+ export  default TelegramDataPage
